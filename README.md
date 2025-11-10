@@ -1,11 +1,11 @@
-# 🧠 Interactive Story Generator
+# Interactive Story Generator
 
 An interactive story generator built with **React** and **FastAPI**, deployed on **Choreo**.  
 It integrates the **ChatGPT API** to generate complete, branching storylines at once, allowing users to explore different paths and endings based on their choices.
 
 ---
 
-## ✨ Features
+## Features
 
 - **AI-Generated Stories:** The ChatGPT API creates a full story tree with multiple branches and endings based on a selected theme.  
 - **Interactive Exploration:** Users navigate through pre-generated story branches by making choices at key decision points.  
@@ -14,7 +14,7 @@ It integrates the **ChatGPT API** to generate complete, branching storylines at 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** React (Vite)  
 - **Backend:** FastAPI (Python)  
