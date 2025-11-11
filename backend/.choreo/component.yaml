@@ -9,3 +9,7 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
+dependencies:
+    connectionReferences:
+    - name: openai-connection
+      resourceRef: service:/interactive-story-generat/openai/v1/proxy/PROJECT
