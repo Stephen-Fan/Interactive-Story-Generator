@@ -1,7 +1,7 @@
 # Interactive Story Generator
 
-An interactive story generator built with **React** and **FastAPI**, deployed on **Choreo**. Data is managed in SQLite databases.
-It integrates the **ChatGPT API** to generate complete, branching storylines at once, allowing users to explore different paths and endings based on their choices.
+An interactive story generator built with **React** and **FastAPI**, deployed on **Choreo**. Data is managed in SQLite databases.  
+It integrates the **OpenAI API** to generate complete, branching storylines at once, allowing users to explore different paths and endings based on their choices.
 
 ---
 
