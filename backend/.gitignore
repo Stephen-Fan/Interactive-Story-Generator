@@ -7,3 +7,7 @@ wheels/
 *.egg-info
 
 # Virtual environments
+
+# Secrets and local data
+.env
+*.db

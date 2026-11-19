@@ -7,11 +7,11 @@ class Settings(BaseSettings):
     API_PREFIX: str = "/api"
     DEBUG: bool = False
 
-    DATABASE_URL: str = None
+    DATABASE_URL: str = "sqlite:///./database.db"
 
-    ALLOWED_ORIGINS: str = ""
+    ALLOWED_ORIGINS: str = "https://localhost:3000,https://localhost:5173"
 
-    OPENAI_API_KEY: str
+    OPENAI_API_KEY: str = ""
 
     # def __init__(self, **values):
     #     super().__init__(**values)
